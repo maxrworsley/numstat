@@ -1,0 +1,16 @@
+[project]
+name = "numstat"
+authors = [
+    {name = "Max Worsley", email = "maxworsley@outlook.com"},
+]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[build-system]
+requires = ["maturin>=1.0,<2.0"]
+build-backend = "maturin"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
