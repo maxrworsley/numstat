@@ -3,7 +3,6 @@ name = "numstat"
 authors = [
     {name = "Max Worsley", email = "maxworsley@outlook.com"},
 ]
-readme = "README.md"
 requires-python = ">=3.8"
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
