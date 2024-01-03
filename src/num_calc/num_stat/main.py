@@ -10,5 +10,5 @@ app = FastAPI()
 
 @app.post("/stats")
 def root(number: StatNumber):
-    results = get_stats(number)
+    results = get_stats(number.number)
     return results
